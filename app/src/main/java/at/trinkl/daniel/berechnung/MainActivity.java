@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Calculation calculation = new Calculation();
                         double dole = calculation.calculate(input, fa);
-                        ((TextView) findViewById(R.id.result)).setText("Das Ergebnis beträgt: € " + dole);
+                        ((TextView) findViewById(R.id.result)).setText("Das Ergebnis beträgt: " + dole);
                     }
                 }
             }
